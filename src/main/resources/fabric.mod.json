@@ -1,0 +1,27 @@
+{
+    "schemaVersion": 1,
+    "id": "morewhitelists",
+    "version": "${version}",
+    "name": "More Whitelists",
+    "description": "Yes.",
+    "authors": [
+        "VelizarBG"
+    ],
+    "contact": {
+        "repo": "https://github.com/VelizarBG/morewhitelists"
+    },
+    "license": "MIT",
+    "environment": "server",
+    "entrypoints": {
+        "main": [
+            "velizarbg.morewhitelists.MoreWhitelists"
+        ]
+    },
+    "mixins": [
+        "morewhitelists.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": "${loader_dependency}",
+        "minecraft": "${minecraft_dependency}"
+    }
+}
